@@ -1,0 +1,96 @@
+<section id="cv">
+    <div class="container">
+        <h2><strong>Curriculum Vitae</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>{{"Education" | translate}}</strong></h4>
+                <ul class="timeline">
+                    <li>
+                        <h5>Scrum Fundamentals Certified (SFC™)</h5>
+                        <em class="font-italic"><a target="_blank" href="https://www.scrumstudy.com/certification/verify?type=SFC&number=806450" >{{"View certificate" | translate}}</a> <br> scrumstudy.com</em>
+                        <p class="year p-2 d-flex justify-content-center">2020</p>
+                    </li>
+                    <li>
+                        <h5>{{"Master Degree" | translate}}</h5>
+                        <em class="font-italic">{{"Graduated in Higher Education" | translate}} <br> ISEADE, El Salvador</em>
+                        <p class="year p-2 d-flex justify-content-center">{{"January" | translate}} 2023</p>
+                    </li>
+                    <li>
+                        <h5>{{"Degree in Computing" | translate}}</h5>
+                        <em class="font-italic">{{"Degree in Computing" | translate}} <br> Universidad Centroamericana Jose Simeon Cañas UCA</em>
+                        <p class="year p-2 d-flex justify-content-center">{{"July" | translate}} 2015</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>{{"Work experience" | translate}}</strong></h4>
+                <ul class="timeline">
+                    <li>
+                        <h5>Full Stack Developer in JS, Microservices, Angular, React</h5>
+                        <em>San Salvador</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">2020 (2 {{"years" | translate}})</p>
+                            <button (click)="detailOnClick('freelanceMotion_detail')" type="button" class="btn btn-primary">+
+                                {{"Detail" | translate}}</button>
+                        </div>
+                        <p *ngIf="freelanceMotionIsShown">
+                            <strong>1. </strong>{{"motioncx3" | translate}}<br>
+                            <strong>2. </strong>{{" " | translate}}<br>
+                            <strong>3. </strong>{{" " | translate}}<br>
+                            <strong>4. </strong>{{" " | translate}}<br>
+                            <strong>5. </strong>{{" " | translate}}
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Developer in PHP, webservices</h5>
+                        <em>San Salvador</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">2020 (6 {{"months" | translate}})</p>
+                            <button (click)="detailOnClick('freelanceScotfy_detail')" type="button" class="btn btn-primary">+
+                                {{"Detail" | translate}}</button>
+                        </div>
+                        <p *ngIf="freelanceScotfyIsShown">
+                            <strong>1. </strong>{{"" | translate}}<br>
+                            <strong>2. </strong>{{"" | translate}}<br>
+                            <strong>3. </strong>{{"" | translate}}<br>
+                            <strong>4. </strong>{{"" | translate}}
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Backend Developer in PHP, webservices</h5>
+                        <em>San Salvador</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">2018 (18 {{"months" | translate}})</p>
+                            <button (click)="detailOnClick('freelance_detail')" type="button" class="btn btn-primary">+
+                                {{"Detail" | translate}}</button>
+                        </div>
+                        <p *ngIf="freelanceIsShown">
+                            <strong>1. </strong>{{"" | translate}}<br>
+                            <strong>2. </strong>{{"" | translate}}<br>
+                            <strong>3. </strong>{{"" | translate}}
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="container row">
+                    <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>{{"Languages" | translate}}</strong></h4>
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/spain-flag.png" width="20"
+                                    alt="drapeau de la france"><strong> {{"Spanish" | translate}}</strong> <i class="val">
+                                    {{"Native" | translate}}</i></span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/united-kingdom-flag.png" width="20"
+                                    alt="drapeau du royaume uni"><strong> {{"English" | translate}}</strong> <i class="val">
+                                    {{"Advanced intermediate" | translate}}</i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

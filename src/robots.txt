@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://carlosavrelsalvador.github.io/angular-portfolio/sitemap.xml
